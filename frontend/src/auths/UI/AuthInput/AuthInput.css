@@ -1,0 +1,14 @@
+#AuthInput {
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    background-color: #fff;
+    color: #111;
+    border: 1px solid #777;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#AuthInput:focus {
+    border-color: orangered;
+}

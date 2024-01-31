@@ -1,0 +1,10 @@
+#AuthButton {
+    cursor: pointer;
+    padding: 5px;
+    background-color: orangered;
+    color: #fff;
+    font-size: 13px;
+    border: 1px solid orangered;
+    width: 310px;
+    height: 40px;
+}

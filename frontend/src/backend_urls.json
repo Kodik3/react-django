@@ -1,0 +1,8 @@
+{
+    "REGISTRATION": "http://127.0.0.1:8000/users/signup/",
+    "LOGIN" : "http://127.0.0.1:8000/users/login/",
+    "CHANGE_USER_NAME" : "http://127.0.0.1:8000/users/change_user_name/",
+    
+    "CLIENT_LIST" : "http://127.0.0.1:8000/users/list_of_clients/",
+    "CREATE_APPEAL" : "http://127.0.0.1:8000/users/create_new_appeal/"
+}
