@@ -1,0 +1,49 @@
+:root {
+    --AppealDefaultHeight: 100px;
+    --AppealColor: #fff;
+}
+
+.Appeal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: var(--AppealDefaultHeight);
+    background-color: var(--AppealColor);
+    width: 90%;
+    padding: 7px;
+    border-radius: 10px;
+    margin-top: 12px;
+    overflow: hidden;
+}
+.Theme {
+    width: 100%;
+    max-height: 20%;
+    overflow: hidden;
+}
+.TextContent {
+    width: 100%;
+    max-height: 60%;
+    overflow: hidden;
+}
+.Appeal:hover{
+    outline: 1px solid var(--color);
+}
+.AppealSettings {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    max-width: 100%;
+    min-height: 20%;
+}
+.AppealSettings_button {
+    text-align: center;
+    border-radius: 10px;
+    width: 40px;
+    border: none;
+    transition: background-color 0.2s ease;
+    background-color: var(--AppealColor);
+}
+.AppealSettings_button:hover {
+    background-color: rgb(182, 182, 182);
+    color: #fff;
+}

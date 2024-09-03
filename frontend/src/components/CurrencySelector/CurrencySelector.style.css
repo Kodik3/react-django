@@ -1,0 +1,20 @@
+.CurrencySelector {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.50);
+    width: 200px;
+}
+.CurrencySelector select {
+    border: 1px solid #777;
+    border-radius: 10px;
+    padding: 5px;
+}
+.CurrencySelector select:hover {
+    border: 1px solid var(--color);
+    outline: 1px solid var(--color);
+}
+.CurrencySelector select option {
+    border: 1px unset red;
+}

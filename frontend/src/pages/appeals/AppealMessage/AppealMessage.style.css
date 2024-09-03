@@ -1,0 +1,31 @@
+:root {
+    --marginAppealMessage: 10px;
+}
+
+.AppealsMessage {
+    background-color: #fff;
+    max-width: 50%;
+    padding: 5px;
+    margin-top: var(--marginAppealMessage);
+    margin-bottom: var(--marginAppealMessage);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.Sender {
+
+}
+
+.TextContent {
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.DateAdded {
+    display: flex;
+    justify-content: end;
+    font-size: 11px;
+    font-style: italic;
+    color: gray;
+}

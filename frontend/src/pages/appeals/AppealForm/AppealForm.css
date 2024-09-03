@@ -1,0 +1,27 @@
+#AppealForm {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 97%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+#ThemeInput {
+    margin-top: 5px;
+    display: flex;
+    width: 50%;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 10px;
+}
+#appealsSubmit {
+    margin-top: 5px;
+    color: #fff;
+    background-color: var(--color);
+    border: none;
+    width: 150px;
+    height: 30px;
+    font-size: 17px;
+}
+#appealsSubmit:hover { background-color: var(--hover-color); }

@@ -1,0 +1,8 @@
+.AllAppeals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    width: 100%;
+    height: 80%;
+}

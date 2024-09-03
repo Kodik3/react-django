@@ -1,0 +1,6 @@
+.AppealMessages {
+    height: 90%;
+    padding: 0px 0px 0px 15px;
+    overflow: auto;
+    overflow-x: hidden;
+}

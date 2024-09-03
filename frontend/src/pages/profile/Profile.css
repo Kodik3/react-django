@@ -1,0 +1,36 @@
+#profile {
+    padding: 10px 15px;
+    max-height: 100vh;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#userNameBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+#userName {
+    display: flex;
+    align-items:center
+}& #name{
+    font-size: 20px;
+}& #changeName{
+    margin-top: 2.9px;
+    margin-left: 15px;
+    color: #666;
+    cursor: pointer;
+    user-select: none;
+}
+#userEmail {
+    padding: 10px 0px;
+    font-size: 20px;
+}
+#changePassword {
+    margin-top: 2.9px;
+    color: #666;
+    cursor: pointer;
+    user-select: none;
+}

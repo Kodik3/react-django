@@ -1,0 +1,55 @@
+.CurrencyExchangeChart-block {
+    display: flex;
+    flex-direction: column;
+}
+.settings-block {
+    display: flex;
+    border-radius: 10px;
+}
+.Line {
+    border: 1px solid #999;
+    border-radius: 10px;
+    min-width: 300px;
+    min-height: 300px;
+}
+.chart-container{
+    display: flex;  
+    flex-wrap: wrap;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.50);
+    margin-top: 15px;
+    border-radius: 10px;
+    max-height: 600px;
+}
+.currencyAmount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.50);
+    width: 100px;
+}
+.currencyAmount input[type=number] {
+    width: 50%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid #999;
+}
+.currencyAmount input[type=number]:focus {
+    border: 1px solid var(--color);
+    outline: 1px solid var(--color);
+}
+.currencyAmount input[type=number]:hover {
+    border: 1px solid var(--color);
+}
+.currencyInformation {
+    border-radius: 10px;
+    padding: 10px;
+}
+.toCurrencyCountText {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
